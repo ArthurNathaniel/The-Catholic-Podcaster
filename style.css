@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+}
+
+body{
+font-family: 'Catamaran', sans-serif;
+background-color: #f4f5f4;
+}
+
+.header{
+    background-color: #26008d;
+    padding: 0 7%;
+    padding-block: 20px;
+    color: #f4f5f4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #26008d;
+    margin: auto;
+   
+}
+  #progressCircle {
+      width: 100px;
+      height: 100px;
+      background-color: #ff0000;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+      font-size: 20px;
+
+  }
+.footer{
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    width: 100%;
+    padding: 0 7%;
+    padding-block: 20px;
+    background-color: #fff;
+    border-radius: 36px;
+    
+}
+
+ button{
+    border: none;
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #26008d;
+}
+
+ button i{
+    font-size: 1.4rem;
+    color: #f4f5f4;
+}
